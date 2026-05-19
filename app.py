@@ -109,7 +109,7 @@ body {
 # LOAD MODEL
 # =========================================================
 
-model = load_model("language_model.h5")
+model = load_model("language_model.keras")
 
 tokenizer = pickle.load(open("tokenizer.pkl", "rb"))
 
